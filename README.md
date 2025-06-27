@@ -31,6 +31,7 @@ Interactなどで手軽にやりたい場合は`FadeTeleportTo`や`FadeRespawn`�
 
 ## 更新履歴
 
+- 0.1.1: 依存修正
 - 0.1.0: リリース
 
 ## License
