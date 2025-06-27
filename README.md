@@ -31,6 +31,8 @@ Interactなどで手軽にやりたい場合は`FadeTeleportTo`や`FadeRespawn`�
 
 ## 更新履歴
 
+- 0.1.0: リリース
+
 ## License
 
 [Zlib License](LICENSE.txt)
