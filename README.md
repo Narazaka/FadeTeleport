@@ -29,6 +29,8 @@ void ReserveRespawn(bool lockPosition);
 
 Interactなどで手軽にやりたい場合は`FadeTeleportTo`や`FadeRespawn`などをAdd Componentしてください。
 
+## 更新履歴
+
 ## License
 
 [Zlib License](LICENSE.txt)
