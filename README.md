@@ -1,6 +1,6 @@
 # Fade Teleport
 
-desc
+フェードしてテレポートするやつ
 
 ## Install
 
@@ -16,7 +16,18 @@ https://github.com/Narazaka/FadeTeleport/releases/latest から `net.narazaka.vr
 
 ## Usage
 
-TODO
+`FadeTeleporter`プレハブを**1つだけ**シーンに置く。
+
+以下のAPIを呼ぶ（フェード時間内に短時間に呼んでもそれっぽくハンドリングします）。
+
+```csharp
+void ReserveTeleportTo(Vector3 position, Quaternion rotation);
+void ReserveTeleportTo(Vector3 position, Quaternion rotation, bool lockPosition);
+void ReserveRespawn();
+void ReserveRespawn(bool lockPosition);
+```
+
+Interactなどで手軽にやりたい場合は`FadeTeleportTo`や`FadeRespawn`などをAdd Componentしてください。
 
 ## License
 
